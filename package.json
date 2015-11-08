@@ -1,16 +1,16 @@
 {
-	"name"    : "x-middleware-js",
-	"version" : "0.0.0",
-	"license" : "MIT",
-	"dependencies":{
-		"uglify-js-middleware" : "latest"
-	},
-	"devDependencies" : {
-		"vows"    : "latest",
-		"markdox" : "latest"
-	},
-	"main" : "js.js",
-	"scripts": {
-		"prepublish" : "markdox -o README.md ./js.js"
-	}
+  "name": "x-middleware-js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js-middleware": "latest"
+  },
+  "devDependencies": {
+    "vows": "latest",
+    "markdox": "latest"
+  },
+  "main": "js.js",
+  "scripts": {
+    "prepublish": "markdox -o README.md ./js.js"
+  }
 }
